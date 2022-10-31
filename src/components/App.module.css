@@ -1,0 +1,60 @@
+.phonebook {
+  padding: 30px;
+  background-color: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
+  /* box-shadow: 0px 4px 10px 4px #9e9e9e; */
+}
+
+.phonebook__wrap {
+  display: inline-block;
+  padding: 30px;
+  box-shadow: 0px 4px 10px 4px #9e9e9e;
+}
+
+.phonebook__title {
+  padding-left: 20px;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+}
+
+.form__button {
+  width: 200px;
+  height: 35px;
+}
+
+.contacts__wrap {
+  padding: 30px;
+}
+
+.contact__list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 300px;
+}
+
+.contact__item {
+  display: inline-flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-left: 30px;
+  min-width: 300px;
+  box-shadow: 0px 4px 10px 4px #9e9e9e;
+  border-radius: 3px;
+}
+
+.contact__button {
+  margin-left: 30px;
+}
